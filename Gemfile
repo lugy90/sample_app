@@ -13,6 +13,7 @@ group :development, :test do
   gem 'spork-rails'
   gem 'guard-spork'
   gem 'childprocess'
+
 end
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
@@ -49,6 +50,7 @@ gem 'spring',        group: :development
 group :test do
   gem 'selenium-webdriver'
   gem 'capybara'
+  gem 'factory_girl_rails'
 end
 
 group :production do
